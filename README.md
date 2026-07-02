@@ -19,14 +19,16 @@ one you need.
 | Package | Type | What it gives you | For |
 |---------|------|-------------------|-----|
 | [`agile-tester/`](agile-tester/) | **agent** (skills bundled inside) | A whole-team tester teammate that walks an iteration end to end and calls the four skills at the right moments. | QA + Dev |
+| [`rca-prevention-facilitator/`](rca-prevention-facilitator/) | **agent** (skills bundled inside) | Facilitates a blameless Root-Cause + Prevention session on a SEV1/rollback: 5 Whys to a systemic cause, then exactly one buildable prevention, written to a structured record. | QA + Dev |
 | [`example-mapping/`](example-mapping/) | skill | Story → clarifying questions, concrete examples, acceptance criteria (Given/When/Then), impact analysis, and a ready/not-ready verdict. | QA + Dev |
 | [`testing-quadrants-mapper/`](testing-quadrants-mapper/) | skill | Feature/release → a complete coverage plan across the four testing quadrants, surfacing the test types teams forget. | QA + Dev |
 | [`exploratory-charter/`](exploratory-charter/) | skill | Feature → session-based exploratory testing charters: mission, heuristics, personas, soap-opera scenarios, session sheet. | QA |
 | [`bug-triage-advisor/`](bug-triage-advisor/) | skill | Bug → defect-or-feature, log-or-talk, fix now/later/never, which medium — adapted to your team's policy. | QA + Dev |
 
-The four skills stand completely alone. The **`agile-tester`** agent bundles copies
-of all four inside `skills/` so it works out of the box — pick the agent for
-full-lifecycle partnership, or a single skill for one isolated job.
+The four standalone skills stand completely alone. The two agents —
+**`agile-tester`** and **`rca-prevention-facilitator`** — each bundle the skills they
+use inside `skills/` so they work out of the box. Pick an agent for a full workflow,
+or a single skill for one isolated job.
 
 ## Quick start
 
